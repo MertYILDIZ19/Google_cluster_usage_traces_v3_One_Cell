@@ -20,7 +20,7 @@ In our pursuit to enable more efficient computational resource management, we ha
 
 
 
-After preprocessing and thorough analysis the data has been constructed as follows:
+After preprocessing and thorough analysis the data has been constructed as follows:  
 
 
 
@@ -45,10 +45,10 @@ The table above outlines the processed dataset with the following columns:
 
 -CPU_Usage: The CPU resources each task requires for execution.
 
--Memory_Usage: The amount of memory resources required for each task.
+-Memory_Usage: The amount of memory resources required for each task.  
 
 
-For the purpose of the small projects/homework we have published the data of one data center only.
+For the purpose of the small projects/homework we have published the data of one data center only.  
 
 The data can be found and downloaded [here](https://drive.google.com/file/d/13AvfShiTE6z7Hf3akzeJl20qOscvKFNk/view?usp=sharing).
 
