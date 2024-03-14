@@ -1,6 +1,5 @@
-# Google_cluster_usage_traces_v3_Cell_a
+# Google_cluster_usage_traces_v3_Single_Cell
 
-# Google_cluster_usage_traces_v3_all_cells
 
 
 A large dataset of workload measurements has been released by Google for the month of May 2019. This robust collection details user requests and the corresponding utilization of cloud resources, totaling a significant 2.4TB in size. It encompasses data from eight distinct data centers, as delineated in the subsequent table. For a more granular breakdown of the trace data and its various components, please refer to the detailed documentation provided [here](https://drive.google.com/file/d/10r6cnJ5cJ89fPWCgj7j4LtLBqYN9RiI9/view).
@@ -19,9 +18,9 @@ In our pursuit to enable more efficient computational resource management, we ha
 | 2019-05-h | 1 May 2019 00:00 PDT      | Europe/Brussels    |
 
 
-
+***
 After preprocessing and thorough analysis the data has been constructed as follows:  
-
+***
 
 
 | Job_ID        | Task_ID       | Arrival_Time | CPU   | Memory |
@@ -34,7 +33,7 @@ After preprocessing and thorough analysis the data has been constructed as follo
 | J_4   | 1             |   609237  | 15.12 | 0.0027 |
 | J_4   | 2             |   609237  | 1.689 | 0.0018 |
 
-
+***
 The table above outlines the processed dataset with the following columns:
 
 -Job_ID: A unique identifier for each job, represented by a hashed number assigned by Google. Each job may encompass multiple tasks.
@@ -47,9 +46,9 @@ The table above outlines the processed dataset with the following columns:
 
 -Memory_Usage: The amount of memory resources required for each task.  
 
+***
 
 For the purpose of the small projects/homework we have published the data of one data center only.  
 
-***
 The data can be found and downloaded [here](https://drive.google.com/file/d/13AvfShiTE6z7Hf3akzeJl20qOscvKFNk/view?usp=sharing).
 
