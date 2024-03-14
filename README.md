@@ -14,10 +14,9 @@ The data has been constructed as follow:
 | J_4   | 2             |   609237  | 1.689 | 0.0018 |
 
 
-The above table presents the Job_ID column, which represents a unique hashed number assigned by Google to each job. It should be noted that a job may comprise one or more tasks, which are indexed in the Task_ID column. For instance, J_1 and J_2 consist of a single task, with index 0 in both cases. Conversely, J_3 has two tasks with indexes 0 and 1 respectively, while J_4 encompasses three tasks with indexes 0, 1, and 2. The arrival times of jobs are recorded in miliseconds, and it is assumed that all tasks pertaining to a job arrive simultaneously. The last two columns of the table indicate the total CPU and memory resources required to successfully execute a task.
+The above table presents the Job_ID column, which represents a unique hashed number assigned by Google to each job. It should be noted that a job may comprise one or more tasks, which are indexed in the Task_ID column. For instance, J_1 and J_2 consist of a single task, with index 0 in both cases. Conversely, J_3 has two tasks with indexes 0 and 1 respectively, while J_4 encompasses three tasks with indexes 0, 1, and 2. The arrival times of jobs are recorded in milliseconds, and it is assumed that all tasks pertaining to a job arrive simultaneously. The last two columns of the table indicate the total CPU and memory resources required to successfully execute a task.
 
 
 
-The data can be found and downloaded here:
+The data can be found and downloaded [here](https://drive.google.com/file/d/1mjX1vZr2rdAIR-jXEYJnpgctdZ3XoHBA/view?usp=share_link).
 
-https://drive.google.com/file/d/1mjX1vZr2rdAIR-jXEYJnpgctdZ3XoHBA/view?usp=share_link
